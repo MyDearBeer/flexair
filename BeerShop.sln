@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerShop", "BeerShop\BeerShop.csproj", "{3E3A6E2E-14B1-4A5B-9984-A6ECC413242F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerTests.Tests", "BeerTests.Tests\BeerTests.Tests.csproj", "{A9D258F0-5E8B-46B9-AC9A-6D179FFEE85D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3E3A6E2E-14B1-4A5B-9984-A6ECC413242F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E3A6E2E-14B1-4A5B-9984-A6ECC413242F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E3A6E2E-14B1-4A5B-9984-A6ECC413242F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D258F0-5E8B-46B9-AC9A-6D179FFEE85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D258F0-5E8B-46B9-AC9A-6D179FFEE85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D258F0-5E8B-46B9-AC9A-6D179FFEE85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D258F0-5E8B-46B9-AC9A-6D179FFEE85D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

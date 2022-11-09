@@ -1,32 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\flexair\\BeerShop_Tests\\BeerShop_Tests.csproj": {}
+    "D:\\flexair\\BeerTests.Tests\\BeerTests.Tests.csproj": {}
   },
   "projects": {
-    "D:\\flexair\\BeerShop\\BeerShop.csproj": {
-      "restore": {
-        "projectUniqueName": "D:\\flexair\\BeerShop\\BeerShop.csproj",
-        "projectName": "BeerShop",
-        "projectPath": "D:\\flexair\\BeerShop\\BeerShop.csproj",
-        "frameworks": {
-          "net472": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net472": {}
-      }
-    },
-    "D:\\flexair\\BeerShop_Tests\\BeerShop_Tests.csproj": {
+    "D:\\flexair\\BeerTests.Tests\\BeerTests.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\flexair\\BeerShop_Tests\\BeerShop_Tests.csproj",
-        "projectName": "BeerShop_Tests",
-        "projectPath": "D:\\flexair\\BeerShop_Tests\\BeerShop_Tests.csproj",
+        "projectUniqueName": "D:\\flexair\\BeerTests.Tests\\BeerTests.Tests.csproj",
+        "projectName": "BeerTests.Tests",
+        "projectPath": "D:\\flexair\\BeerTests.Tests\\BeerTests.Tests.csproj",
         "packagesPath": "C:\\Users\\андрей\\.nuget\\packages\\",
-        "outputPath": "D:\\flexair\\BeerShop_Tests\\obj\\",
+        "outputPath": "D:\\flexair\\BeerTests.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,11 +27,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "D:\\flexair\\BeerShop\\BeerShop.csproj": {
-                "projectPath": "D:\\flexair\\BeerShop\\BeerShop.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -61,23 +42,19 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.1.0, )"
+              "version": "[16.5.0, )"
             },
             "coverlet.collector": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[1.2.0, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[2.4.0, )"
             },
             "xunit.runner.visualstudio": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.3, )"
+              "version": "[2.4.0, )"
             }
           },
           "imports": [
