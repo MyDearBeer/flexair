@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Runtime.Serialization;
+using System.Xml.Linq;
 
 
 namespace BeerShop.Data
@@ -14,6 +15,11 @@ namespace BeerShop.Data
     public class Basket
     {
         private List<Product> ProductsList;
+        public List<Product> products
+        {
+            get { return ProductsList; }
+        }
+
         public Basket()
         {
             ProductsList = new List<Product>();
