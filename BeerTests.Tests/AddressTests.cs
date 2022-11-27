@@ -46,5 +46,16 @@ namespace BeerShop.Tests
             //Assert
             Assert.Throws<IndexOutOfRangeException>(() => sut.SetFullAddress(address));
         }
+
+        [Fact]
+        public void SetFullAddress_CallNullExeption_ReturnExeptionWasThrown()
+        {
+            //Arrange
+            var sut = new Address();
+            string address = null;
+
+            //Assert
+            Assert.Throws<NullReferenceException>(() => sut.SetFullAddress(address));
+        }
     }
 }

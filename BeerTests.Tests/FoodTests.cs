@@ -81,7 +81,10 @@ namespace BeerShop.Tests
             food2.SetAll("Moiva", 100, 500, "Fish");
 
             //Assert
-            Assert.Equal(food1.DataToStr(), food2.DataToStr());
+            Assert.Equal(food1.name, food2.name);
+            Assert.Equal(food1.Type, food2.Type);
+            Assert.Equal(food1.price, food2.price);
+            Assert.Equal(food1.Weight, food2.Weight);
         }
 
         [Fact]
