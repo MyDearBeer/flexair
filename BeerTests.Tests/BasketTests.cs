@@ -1,4 +1,5 @@
 using BeerShop.Data;
+using System;
 using Xunit;
 
 namespace BeerShop.Tests
@@ -26,6 +27,16 @@ namespace BeerShop.Tests
         }
 
         [Fact]
+        public void GetProductFromDatabase_GetProducts_ReturnEx()
+        {
+            //Arrange
+            var sut = new Basket();
+
+            //Assert
+            Assert.Throws<ArgumentOutOfRangeException>(() => sut.GetProductFromDatabase(-1));
+        }
+
+        [Fact]
         public void DeleteProduct_DeleteProduct_ReturnEqual()
         {
             //Arrange
@@ -42,6 +53,16 @@ namespace BeerShop.Tests
 
             //Assert
             Assert.DoesNotContain(pr2, sut.products);
+        }
+
+        [Fact]
+        public void DeleteProduct_DeleteProduct_ReturnEx()
+        {
+            //Arrange
+            var sut = new Basket();
+
+            //Assert
+            Assert.Throws<ArgumentOutOfRangeException>(() => sut.DeleteProduct(-1));
         }
 
         [Fact]
