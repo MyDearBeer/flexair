@@ -1,20 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "D:\\flexair\\BeerTests.Tests\\BeerTests.Tests.csproj": {}
+    "F:\\BeerShop\\flexair\\BeerTests.Tests\\BeerTests.Tests.csproj": {}
   },
   "projects": {
-    "D:\\flexair\\BeerTests.Tests\\BeerTests.Tests.csproj": {
+    "F:\\BeerShop\\flexair\\BeerShop\\BeerShop.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\BeerShop\\flexair\\BeerShop\\BeerShop.csproj",
+        "projectName": "BeerShop",
+        "projectPath": "F:\\BeerShop\\flexair\\BeerShop\\BeerShop.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "F:\\BeerShop\\flexair\\BeerTests.Tests\\BeerTests.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\flexair\\BeerTests.Tests\\BeerTests.Tests.csproj",
+        "projectUniqueName": "F:\\BeerShop\\flexair\\BeerTests.Tests\\BeerTests.Tests.csproj",
         "projectName": "BeerTests.Tests",
-        "projectPath": "D:\\flexair\\BeerTests.Tests\\BeerTests.Tests.csproj",
-        "packagesPath": "C:\\Users\\андрей\\.nuget\\packages\\",
-        "outputPath": "D:\\flexair\\BeerTests.Tests\\obj\\",
+        "projectPath": "F:\\BeerShop\\flexair\\BeerTests.Tests\\BeerTests.Tests.csproj",
+        "packagesPath": "C:\\Users\\vovas\\.nuget\\packages\\",
+        "outputPath": "F:\\BeerShop\\flexair\\BeerTests.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vovas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +42,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\BeerShop\\flexair\\BeerShop\\BeerShop.csproj": {
+                "projectPath": "F:\\BeerShop\\flexair\\BeerShop\\BeerShop.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -63,8 +82,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -73,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }

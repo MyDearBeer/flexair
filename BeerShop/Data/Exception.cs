@@ -23,7 +23,7 @@ namespace BeerShop.Data
             this.value = Value;
         }
     }
-    class BeerStrenghtException : Exception
+    public class BeerStrenghtException : Exception
     {
         public string value;
         public BeerStrenghtException(string value)
@@ -31,7 +31,7 @@ namespace BeerShop.Data
             this.value = value;
         }
     }
-    class PriceException : Exception
+    public class PriceException : Exception
     {
         public string value;
         public PriceException(string value)

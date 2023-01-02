@@ -1,0 +1,14 @@
+F:\BeerShop\flexair\BeerShop\program\BeerShop.exe.config
+F:\BeerShop\flexair\BeerShop\program\BeerShop.exe
+F:\BeerShop\flexair\BeerShop\program\BeerShop.pdb
+F:\BeerShop\flexair\BeerShop\obj\Debug\BeerShop.csproj.AssemblyReference.cache
+F:\BeerShop\flexair\BeerShop\obj\Debug\BeerShop.csproj.SuggestedBindingRedirects.cache
+F:\BeerShop\flexair\BeerShop\obj\Debug\BeerShop.AdminPanel.resources
+F:\BeerShop\flexair\BeerShop\obj\Debug\BeerShop.Authentication.resources
+F:\BeerShop\flexair\BeerShop\obj\Debug\BeerShop.MainMenu.resources
+F:\BeerShop\flexair\BeerShop\obj\Debug\BeerShop.OrderedProducts.resources
+F:\BeerShop\flexair\BeerShop\obj\Debug\BeerShop.Properties.Resources.resources
+F:\BeerShop\flexair\BeerShop\obj\Debug\BeerShop.csproj.GenerateResource.cache
+F:\BeerShop\flexair\BeerShop\obj\Debug\BeerShop.csproj.CoreCompileInputs.cache
+F:\BeerShop\flexair\BeerShop\obj\Debug\BeerShop.exe
+F:\BeerShop\flexair\BeerShop\obj\Debug\BeerShop.pdb
